@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import api from '../../services/api';
-import { Container } from './styles';
+import Container from '../../components/Container';
 
 export default class Main extends Component {
   constructor(props) {

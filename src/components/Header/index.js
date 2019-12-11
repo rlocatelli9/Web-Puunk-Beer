@@ -7,8 +7,12 @@ export default function Header() {
   return (
     <Container>
       <header>
-        APBeer Web
-        <FaBeer />
+        <nav>
+          <h1>WebPunk</h1>
+          <div>
+            <FaBeer />
+          </div>
+        </nav>
       </header>
     </Container>
   );
