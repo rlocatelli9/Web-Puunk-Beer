@@ -36,14 +36,12 @@ export default class Beer extends Component {
         <Product>
           <img src={product.image_url} alt={product.name} />
           <div className="product-info">
-            <strong>{product.name}</strong>
-            <span>{product.tagline}</span>
+            <h1>{product.name}</h1>
+            <p className="product-tag">({product.tagline})</p>
             <p>{product.description}</p>
           </div>
+          <Link to="/">Voltar para lista de cervejas</Link>
         </Product>
-        <div className="actions">
-          <Link to="/">Início</Link>
-        </div>
       </Container>
     );
   }
