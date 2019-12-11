@@ -1,7 +1,47 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import api from '../../services/api';
 
-// import { Container } from './styles';
+export default class Beer extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      product: {},
+    };
+  }
 
-export default function Beer() {
-  return <h1>Beer</h1>;
+  componentDidMount() {
+    const { id } = this.props.match.params;
+    api
+      .get(`/beers/${id}`)
+      .then(function(response) {
+        console.log(response.data);
+      })
+      .catch(function(error) {
+        console.log(error);
+      });
+    // this.setState({ product: data });
+  }
+
+  render() {
+    // const { product } = this.state;
+    return (
+      <>
+        <div className="product-info">
+          <strong>{this.state.product.name}</strong>
+          <p>{this.state.product.description}</p>
+
+          <p>
+            URL:{' '}
+            <a href={this.state.product.image_url}>
+              {this.state.product.image_url}
+            </a>
+          </p>
+        </div>
+        <div className="actions">
+          <Link to="/">Início</Link>
+        </div>
+      </>
+    );
+  }
 }
