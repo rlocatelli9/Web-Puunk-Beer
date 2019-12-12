@@ -4,12 +4,12 @@ Web Punk Beer is an App focused to helps you searching beer. This project was bo
 
 ## Web App Features
 
-[x] - application all in components;
-[x] - standards and conventions of HTML, CSS and Javascript;
-[x] - Webpack;
-[x] - npm or yarn to manage the application;
-[x] - lib for the use of routes (React Routes);
-[x] - axios for HTTP requests in the API;
+- [x] application all in components;
+- [x] standards and conventions of HTML, CSS and Javascript;
+- [x] Webpack;
+- [x] npm or yarn to manage the application;
+- [x] lib for the use of routes (React Routes);
+- [x] axios for HTTP requests in the API;
 
 ## Available Scripts
 
@@ -54,27 +54,27 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### dependencies
 
-[x] - "@testing-library/jest-dom": "^4.2.4",
-[x] - "@testing-library/react": "^9.3.2",
-[x] - "@testing-library/user-event": "^7.1.2",
-[x] - "axios": "^0.19.0",
-[x] - "prop-types": "^15.7.2",
-[x] - "react": "^16.12.0",
-[x] - "react-dom": "^16.12.0",
-[x] - "react-icons": "^3.8.0",
-[x] - "react-router-dom": "^5.1.2",
-[x] - "react-scripts": "3.3.0",
-[x] - "styled-components": "^4.4.1"
+- [x] "@testing-library/jest-dom": "^4.2.4",
+- [x] "@testing-library/react": "^9.3.2",
+- [x] "@testing-library/user-event": "^7.1.2",
+- [x] "axios": "^0.19.0",
+- [x] "prop-types": "^15.7.2",
+- [x] "react": "^16.12.0",
+- [x] "react-dom": "^16.12.0",
+- [x] "react-icons": "^3.8.0",
+- [x] "react-router-dom": "^5.1.2",
+- [x] "react-scripts": "3.3.0",
+- [x] "styled-components": "^4.4.1"
 
 ### devDependencies
 
-[x] - "babel-eslint": "^10.0.3",
-[x] - "eslint": "^6.7.2",
-[x] - "eslint-config-airbnb": "^18.0.1",
-[x] - "eslint-config-prettier": "^6.7.0",
-[x] - "eslint-plugin-import": "^2.19.1",
-[x] - "eslint-plugin-jsx-a11y": "^6.2.3",
-[x] - "eslint-plugin-prettier": "^3.1.1",
-[x] - "eslint-plugin-react": "^7.17.0",
-[x] - "eslint-plugin-react-hooks": "^1.7.0",
-[x] - "prettier": "^1.19.1"
+- [x] "babel-eslint": "^10.0.3",
+- [x] "eslint": "^6.7.2",
+- [x] "eslint-config-airbnb": "^18.0.1",
+- [x] "eslint-config-prettier": "^6.7.0",
+- [x] "eslint-plugin-import": "^2.19.1",
+- [x] "eslint-plugin-jsx-a11y": "^6.2.3",
+- [x] "eslint-plugin-prettier": "^3.1.1",
+- [x] "eslint-plugin-react": "^7.17.0",
+- [x] "eslint-plugin-react-hooks": "^1.7.0",
+- [x] "prettier": "^1.19.1"
