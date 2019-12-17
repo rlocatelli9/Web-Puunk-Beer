@@ -78,3 +78,12 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 - [x] "eslint-plugin-react": "^7.17.0",
 - [x] "eslint-plugin-react-hooks": "^1.7.0",
 - [x] "prettier": "^1.19.1"
+
+# 🤔 How to contribute
+
+- Faça um fork desse repositório;
+- Cria a branch com sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
+
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
